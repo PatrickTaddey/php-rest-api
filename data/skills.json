@@ -1,0 +1,213 @@
+[
+    {
+        "name": "Backbone.js",
+        "class": "frontend",
+        "text": "Backbone.js ist eine JavaScript-Bibliothek mit RESTful-JSON-Schnittstelle. Backbone basiert auf dem Model-View-Controller-Muster (MVC). Backbone ist für seine geringe Größe bekannt und nur von der JavaScript-Bibliothek [2] Underscore.js abhängig. Backbone wird zur Programmierung von Single-page-Webanwendungen und zur Synchronität von Webanwendungen (z. B. verschiedene Clients und Server) verwendet.",
+        "link": "http://backbonejs.org/"
+    },
+    {
+        "name": "Marionette.js",
+        "class": "frontend",
+        "text": "Im Vergleich zu JavaScript-Frameworks wie Angular.js oder Ember.js gibt Backbone.js kaum Konventionen für die Entwicklung vor und überlässt aus Gründen der Flexibilität wichtige Entscheidungen zur Anwendungsarchitektur dem Entwickler. Hier setzt die Backbone.js-Erweiterung Marionette.js an. Im Zusammenspiel mit Backbone.js bleibt zwar die Flexibilität erhalten, typische Probleme umfangreicherer Anwendungen werden aber schon im Ansatz vermieden.",
+        "link": "http://marionettejs.com/"
+    },
+    {
+        "name": "Nunjucks",
+        "class": "frontend",
+        "text": "Die vielseitige JavaScript-Template-Engine Nunjucks erlaubt das Definieren von eigenen Filtern, bietet asynchrone Templates und sogar Macros (also JavaScript innerhalb eines Templates). Weiterhin können Templates vererbt werden, was die Engine zu einem umfangreichen Werkzeug macht. Weitere Details finden sich in der Dokumentation.",
+        "link": "http://mozilla.github.io/nunjucks/"
+    },
+    {
+        "name": "Bower",
+        "class": "frontend",
+        "text": "'A package manager for the web' - Twitter hat mit Bower einen einfachen Paketmanager fürs Web veröffentlicht. Mit Bower lassen sich Bilder, CSS und Javascript für Webprojekte auf einfache Art und Weise installieren und verwalten.",
+        "link": "http://bower.io/"
+    },
+    {
+        "name": "Grunt",
+        "class": "frontend",
+        "text": "Mit Grunt gibt es ein Tool, das hilft, wiederkehrende Aufgaben in Frontend-Projekten zu automatisieren. Einmal konfiguriert ist das Testen und Ausliefern selbst bei umfangreichen Projekten problemlos möglich - und eignet sich so auch für die gemeinsame Entwicklung in Teams.",
+        "link": "http://gruntjs.com/"
+    },
+    {
+        "name": "Browserify",
+        "class": "frontend",
+        "text": "",
+        "link": "http://browserify.org/"
+    },
+    {
+        "name": "Require.js",
+        "class": "frontend",
+        "text": "",
+        "link": "http://requirejs.org/"
+    },
+    {
+        "name": "CakePHP",
+        "class": "backend",
+        "text": "",
+        "link": "http://cakephp.org/"
+    },
+    {
+        "name": "SlimPHP",
+        "class": "backend",
+        "text": "",
+        "link": "http://www.slimframework.com/"
+    },
+    {
+        "name": "CoffeeScript",
+        "class": "frontend",
+        "text": "",
+        "link": "http://coffeescript.org/"
+    },
+    {
+        "name": "CSS3",
+        "class": "frontend",
+        "text": "",
+        "link": "http://www.w3schools.com/css/css3_intro.asp"
+    },
+    {
+        "name": "SASS",
+        "class": "frontend",
+        "text": "",
+        "link": "http://sass-lang.com/"
+    },
+    {
+        "name": "GIT",
+        "class": "tools",
+        "text": "",
+        "link": "https://github.com/"
+    },
+    {
+        "name": "SVN",
+        "class": "tools",
+        "text": "",
+        "link": "http://de.wikipedia.org/wiki/Apache_Subversion"
+    },
+    {
+        "name": "Gambio Onlineshop",
+        "class": "backend",
+        "text": "",
+        "link": "http://www.gambio.de/"
+    },
+    {
+        "name": "Gulb",
+        "class": "frontend",
+        "text": "",
+        "link": "http://gulpjs.com/"
+    },
+    {
+        "name": "HTML5",
+        "class": "frontend",
+        "text": "",
+        "link": "http://de.wikipedia.org/wiki/HTML5"
+    },
+    {
+        "name": "JavaScript",
+        "class": "frontend",
+        "text": "",
+        "link": "http://de.wikipedia.org/wiki/JavaScript"
+    },
+    {
+        "name": "Jira",
+        "class": "tools",
+        "text": "",
+        "link": "https://de.atlassian.com/software/jira"
+    },
+    {
+        "name": "jQuery",
+        "class": "frontend",
+        "text": "",
+        "link": "http://jquery.com/"
+    },
+    {
+        "name": "MySQL",
+        "class": "backend",
+        "text": "",
+        "link": "http://dev.mysql.com/"
+    },
+    {
+        "name": "PHP5",
+        "class": "backend",
+        "text": "",
+        "link": "http://php.net/"
+    },
+    {
+        "name": "Shopware",
+        "class": "backend",
+        "text": "Shopware ist bei der Wahl eines Shopsystems einfach die Nummer 1, da es einfach zu installieren und anzupassen ist. Ein Plugin zu schreiben ist dementsprechend sehr unkompliziert.",
+        "link": "http://www.shopware.de/"
+    },
+    {
+        "name": "Twitter Bootstrap",
+        "class": "frontend",
+        "text": "Nach 'Foundation' ist Twitter Bootstrap das CSS-Framework meiner Wahl...",
+        "link": "http://getbootstrap.com/"
+    },
+    {
+        "name": "Semantic UI",
+        "class": "frontend",
+        "text": "Die Besonderheit an Semantic UI ist, wie der Name schon erahnen lässt, dass man für alle Gestaltungselemente semantische CSS-Klassen verwendet. Dadurch soll die Entwicklung mit dem CSS-Framework intuitiver werden. Was dies bedeutet, wird auf der Startseite von Semantic UI ersichtlich, auf der typischer HTML-Code von Semantic UI mit dem von Bootstrap vergleichen werden.",
+        "link": "http://semantic-ui.com/"
+    },
+    {
+        "name": "Zurb Foundation",
+        "class": "frontend",
+        "text": "Das CSS-Framework von ZURB wurde mit dem Ziel entwickelt, schnell und 'responsiv' zu sein. Vor allem die Möglichkeit, 'SASS' zu verwenden macht es gegenüber 'Twitter Bootstrap' attraktiver, da Foundation so einfacher zu verwenden und anzupassen ist...",
+        "link": "http://foundation.zurb.com/"
+    },
+    {
+        "name": "Wordpress",
+        "class": "backend",
+        "text": "WordPress ist wohl das erfolgreichste Publishing-System der Welt. Mit den angebotenen Themes und Plugins lässt sich das System schnell erweitern. Diese selber zu entwickeln bzw. anzupassen ist auch kein Hexenwerk...",
+        "link": "http://wpde.org/"
+    },
+    {
+        "name": "Node.js",
+        "class": "frontend",
+        "text": "Serverseitige Anwendungen mit Hilfe des 'Node Package Managers' schnell entwickeln und deployen.",
+        "link": "http://nodejs.org/"
+    },
+    {
+        "name": "Sublime Text",
+        "class": "tools",
+        "text": "Mehr Editor braucht der Entwickler einfach nicht...",
+        "link": "http://www.sublimetext.com/"
+
+    },
+    {
+        "name": "Ubuntu",
+        "class": "tools",
+        "text": "Einfach die beste Basis für ein ausgewogenes Entwickler-System.",
+        "link": "http://www.ubuntu.com/"
+    },
+    {
+        "name": "Chrome",
+        "class": "tools",
+        "text": "Was wäre eine Webentwickler ohne die DevTools?!",
+        "link": "https://www.google.com/chrome/"
+    },
+    {
+        "name": "Chartist JS",
+        "class": "Frontend",
+        "text": "'Chartist - Simple responsive charts' auf SVG-Basis.",
+        "link": "http://gionkunz.github.io/chartist-js/"
+    },
+    {
+        "name": "Sentry",
+        "class": "tools",
+        "text": "'Shit happens - Be on top of it.' JavaScript-Fehler tracken in Echtzeit und zwar direkt im Browser.",
+        "link": "https://getsentry.com/"
+    },
+    {
+        "name": "Weblate",
+        "class": "tools",
+        "text": "Weblate ist ein Web-basiertes Übersetzungs-Werkzeug mit enger Versionskontrollenintegration (GIT). Es bietet eine einfache und klare Benutzeroberfläche, Verbreitung von Übersetzungen über Komponenten, Konsistenzprüfungen sowie automatische Verlinkung auf Quelldateien.",
+        "link": "https://weblate.org/de/"
+    },
+    {
+        "name": "Heroku",
+        "class": "tools",
+        "text": "Mit dem 'Platform as a Service (PaaS)' Anbieter Heroku kann man mit einem Klick seine Anwendung auf ein Produktivsystem deployen und ist dazu auch noch gleich in der Cloud.",
+        "link": "https://www.heroku.com/"
+    }
+]
