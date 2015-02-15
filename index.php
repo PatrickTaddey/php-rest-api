@@ -4,8 +4,8 @@
  *
  * This API just uses JSON-Files for sharing data with the frontend
  */
-require 'config.php';
-require 'vendor/autoload.php';
+require "config.php";
+require "vendor/autoload.php";
 
 /**
  * Simple setup: create app, set config, add Middleware
@@ -18,16 +18,29 @@ $app->add(new \SlimJson\Middleware($json_config));
  * enable cors
  */
 $response = $app->response();
-$response->header('Access-Control-Allow-Origin', '*');
-
+$response->header("Access-Control-Allow-Origin", "*");
+if ($_SERVER["REQUEST_METHOD"] == "OPTIONS") {
+	if (isset($_SERVER["HTTP_ACCESS_CONTROL_REQUEST_METHOD"]) && (
+		$_SERVER["HTTP_ACCESS_CONTROL_REQUEST_METHOD"] == "POST" ||
+		$_SERVER["HTTP_ACCESS_CONTROL_REQUEST_METHOD"] == "DELETE" ||
+		$_SERVER["HTTP_ACCESS_CONTROL_REQUEST_METHOD"] == "PUT")) {
+		header("Access-Control-Allow-Origin: *");
+		header("Access-Control-Allow-Credentials: true");
+		header("Access-Control-Allow-Headers: X-Requested-With");
+		header("Access-Control-Allow-Headers: Content-Type");
+		header("Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT"); // http://stackoverflow.com/a/7605119/578667
+		header("Access-Control-Max-Age: 86400");
+	}
+	exit;
+}
 /**
  * handle GET-Requests to share user data from JSON-Files
  */
-$app->get('/users/:name(/:data)', function ($name, $data_type = "profile") use ($app) {
-	if (isset($app->config('data_files')[$data_type])) {
-		$data_file = $app->config('data_dir') . $app->config('data_files')[$data_type];
+$app->get("/users/:name(/:data)", function ($name, $data_type = "profile") use ($app) {
+	if (isset($app->config("data_files")[$data_type])) {
+		$data_file = $app->config("data_dir") . $app->config("data_files")[$data_type];
 		if (file_exists($data_file) === true) {
-			$data = (array) json_decode(file_get_contents($data_file));
+			$data = ["data" => json_decode(file_get_contents($data_file))];
 			$app->render(200, $data);
 		} else {
 			$app->render(404, ["message" => "Not Found"]);
@@ -38,6 +51,38 @@ $app->get('/users/:name(/:data)', function ($name, $data_type = "profile") use (
 });
 
 /**
- * run app, that's all!
+ * handle POST-Requests: send mail
+ */
+$app->post("/contacts", function () use ($app) {
+	$request_body = json_decode($app->request->getBody());
+	$smtp_config = $app->config("smtp_config");
+
+	$mail = new PHPMailer;
+	$mail->isSMTP();
+	$mail->Host = $smtp_config["host"];
+	$mail->SMTPAuth = $smtp_config["smtp_auth"];
+	$mail->Username = $smtp_config["username"];
+	$mail->Password = $smtp_config["password"];
+	$mail->SMTPSecure = $smtp_config["secure"];
+	$mail->Port = $smtp_config["port"];
+
+	$mail->Sender = $smtp_config["receiver"]['mail'];
+	$mail->From = $smtp_config["receiver"]['mail'];
+	$mail->FromName = $request_body->name;
+	$mail->addAddress($smtp_config["receiver"]['mail'], $smtp_config["receiver"]['name']); // Add a recipient
+	$mail->addReplyTo($request_body->email, $request_body->name);
+	$mail->Subject = "Nachricht von " . $request_body->name;
+	$mail->Body = $request_body->message;
+
+	if (!$mail->send()) {
+		$app->render(500, ["message" => $mail->ErrorInfo]);
+	} else {
+		$app->render(200, ["message" => "Message sent"]);
+	}
+
+});
+
+/**
+ * run app, that"s all!
  */
 $app->run();
