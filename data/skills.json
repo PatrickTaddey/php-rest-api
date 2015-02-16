@@ -188,7 +188,7 @@
     },
     {
         "name": "Chartist JS",
-        "class": "Frontend",
+        "class": "frontend",
         "text": "'Chartist - Simple responsive charts' auf SVG-Basis.",
         "link": "http://gionkunz.github.io/chartist-js/"
     },

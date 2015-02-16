@@ -33,10 +33,12 @@ if ($_SERVER["REQUEST_METHOD"] == "OPTIONS") {
 	}
 	exit;
 }
+
 /**
  * handle GET-Requests to share user data from JSON-Files
  */
 $app->get("/users/:name(/:data)", function ($name, $data_type = "profile") use ($app) {
+
 	if (isset($app->config("data_files")[$data_type])) {
 		$data_file = $app->config("data_dir") . $app->config("data_files")[$data_type];
 		if (file_exists($data_file) === true) {
@@ -55,21 +57,12 @@ $app->get("/users/:name(/:data)", function ($name, $data_type = "profile") use (
  */
 $app->post("/contacts", function () use ($app) {
 	$request_body = json_decode($app->request->getBody());
-	$smtp_config = $app->config("smtp_config");
+	$mail_config = $app->config("mail_config");
 
 	$mail = new PHPMailer;
-	$mail->isSMTP();
-	$mail->Host = $smtp_config["host"];
-	$mail->SMTPAuth = $smtp_config["smtp_auth"];
-	$mail->Username = $smtp_config["username"];
-	$mail->Password = $smtp_config["password"];
-	$mail->SMTPSecure = $smtp_config["secure"];
-	$mail->Port = $smtp_config["port"];
-
-	$mail->Sender = $smtp_config["receiver"]['mail'];
-	$mail->From = $smtp_config["receiver"]['mail'];
+	$mail->From = $mail_config["receiver"]['mail'];
 	$mail->FromName = $request_body->name;
-	$mail->addAddress($smtp_config["receiver"]['mail'], $smtp_config["receiver"]['name']); // Add a recipient
+	$mail->addAddress($mail_config["receiver"]['mail'], $mail_config["receiver"]['name']);
 	$mail->addReplyTo($request_body->email, $request_body->name);
 	$mail->Subject = "Nachricht von " . $request_body->name;
 	$mail->Body = $request_body->message;
