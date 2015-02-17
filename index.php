@@ -66,8 +66,9 @@ $app->post("/contacts", function () use ($app) {
 	$mail->addReplyTo($request_body->email, $request_body->name);
 	$mail->Subject = "Nachricht von " . $request_body->name;
 	$mail->Body = $request_body->message;
-	if (empty($request_body->name) === false) {
+	if (empty($request_body->offer) === false) {
 		$mail->Body .= "\n\n Angebot: " . $request_body->offer;
+		$mail->Subject = "Angebot von " . $request_body->name;
 	}
 
 	if (!$mail->send()) {

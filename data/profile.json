@@ -5,12 +5,12 @@
     "zipcode": "26121",
     "city": "Oldenburg",
     "intro": {
-        "title": "Tach, ich bin der Patrick",
+        "title": "Ich bin der Patrick",
         "text": "Ich habe mich als Webentwickler auf den Bereich der Frontend- & Backend-Entwicklung spezialisiert und möchte auf diesen Seiten kurz mein Profil & Portfolio vorstellen."
     },
     "more": {
         "title": "Ich bin auf der Suche",
-        "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#profile'>Nachricht</a>."
+        "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#contact'>Nachricht</a>."
     },
     "technology": {
         "title": "Hinter den Kulissen",
@@ -19,7 +19,7 @@
     "advertisement": {
         "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         "facts": {
-            "title": "Webentwickler",
+            "title": "<i class='fa fa-street-view'></i> Webentwickler",
             "text": "Webentwickler mit Spezialisierung auf Frontend- & Backend-Entwicklung. Aktuell in der Produktentwicklung und als Ausbilder tätig. Stets an neuen Technolgien, anspruchsvollen Aufgaben und gutem Kaffee interessiert.",
             "features": [
                 "9 Jahre Berufserfahrung <span class='label radius'><i class='fa fa-desktop'></i></span>",
@@ -47,7 +47,7 @@
         "items": [
             {
                 "title" : "Benutzerfreundlich",
-                "text" : "Statt nerviger Page-Reloads erwarten ihre Benutzer eine schnelle & moderne Website.",
+                "text" : "Statt nerviger Page-Reloads erwartet man heutzutage eine schnelle & anspruchsvolle Website.",
                 "icon" : "fa-users"
             },
             {
