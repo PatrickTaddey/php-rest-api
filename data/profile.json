@@ -1,16 +1,70 @@
 {
     "name": "Patrick Taddey",
-    "age": 36,
     "title": "Webentwickler",
     "street": "Rostocker Straße 104",
     "zipcode": "26121",
     "city": "Oldenburg",
-    "email": "tooltonix@gmail.com",
-    "welcome": "Patrick?!",
-    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-    "social": {
-        "google-plus": "https://plus.google.com/",
-        "xing": "https://www.xing.com/profile/Patrick_Taddey",
-        "github-alt": "https://github.com/PatrickTaddey"
+    "intro": {
+        "title": "Tach, ich bin der Patrick",
+        "text": "Ich habe mich als Webentwickler auf den Bereich der Frontend- & Backend-Entwicklung spezialisiert und möchte auf diesen Seiten kurz mein Profil & Portfolio vorstellen."
+    },
+    "more": {
+        "title": "Ich bin auf der Suche",
+        "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#profile'>Nachricht</a>."
+    },
+    "technology": {
+        "title": "Hinter den Kulissen",
+        "text": "Ich habe diese Seite persönlich entwickelt, um meine Skills in der Webentwicklung unter Beweis zu stellen. Die Technik dahinter kannst Du Dir in meinem <a href='https://github.com/PatrickTaddey' target='_blank'>GitHub</a>-Account anschauen."
+    },
+    "advertisement": {
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "facts": {
+            "title": "Webentwickler",
+            "text": "Webentwickler mit Spezialisierung auf Frontend- & Backend-Entwicklung. Aktuell in der Produktentwicklung und als Ausbilder tätig. Stets an neuen Technolgien, anspruchsvollen Aufgaben und gutem Kaffee interessiert.",
+            "features": [
+                "9 Jahre Berufserfahrung <span class='label radius'><i class='fa fa-desktop'></i></span>",
+                "IHK-Anwendungsentwickler <span class='label radius'><i class='fa fa-mortar-board'></i></span>",
+                "IHK-Ausbilder <span class='label radius'><i class='fa fa-mortar-board'></i></span>"
+            ]
+        }
+    },
+    "social" : [
+        {
+            "link" : "https://plus.google.com/",
+            "icon" : "fa-google-plus"
+        },
+        {
+            "link" : "https://www.xing.com/profile/Patrick_Taddey",
+            "icon" : "fa-xing"
+        },
+        {
+            "link" : "https://github.com/PatrickTaddey",
+            "icon" : "fa-github-alt"
+        }
+    ],
+    "features": {
+        "title": "und ich entwickle Web-Apps",
+        "items": [
+            {
+                "title" : "Benutzerfreundlich",
+                "text" : "Statt nerviger Page-Reloads erwarten ihre Benutzer eine schnelle & moderne Website.",
+                "icon" : "fa-users"
+            },
+            {
+                "title" : "Effizient",
+                "text" : "Mit Tools wie z.B. Backbone, Browserify, Grunt, etc. ist eine Web-App schnell entwickelt.",
+                "icon" : "fa-line-chart"
+            },
+            {
+                "title" : "Responsive",
+                "text" : "Nach dem Motto Mobile-First! ist eine Website dank Foundation & SASS responsive designt.",
+                "icon" : "fa-mobile"
+            },
+            {
+                "title" : "Erweiterbar",
+                "text" : "GitHub bietet viele Pakete an, die über Bower & NPM schnell zum Einsatz kommen.",
+                "icon" : "fa-github"
+            }
+        ]
     }
 }
