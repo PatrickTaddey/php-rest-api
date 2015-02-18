@@ -6,23 +6,38 @@
     "city": "Oldenburg",
     "intro": {
         "title": "Ich bin der Patrick",
-        "text": "Ich habe mich als Webentwickler auf den Bereich der Frontend- & Backend-Entwicklung spezialisiert und möchte auf diesen Seiten kurz mein Profil & Portfolio vorstellen."
+        "text": "Ich habe mich als Webentwickler auf den Bereich der Frontend- & Backend-Entwicklung spezialisiert und möchte auf diesen Seiten  \n
+            kurz mein Profil & Portfolio vorstellen."
     },
     "more": {
         "title": "Ich bin auf der Suche",
-        "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#contact'>Nachricht</a>."
+        "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, \n
+            besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#contact'>Nachricht</a>. \n
+            Alternativ kannst Du mich auch auf <a href='https://www.xing.com/profile/Patrick_Taddey' target='_blank'>Xing</a> kontaktieren."
     },
     "technology": {
         "title": "Hinter den Kulissen",
-        "text": "Ich habe diese Seite persönlich entwickelt, um meine Skills in der Webentwicklung unter Beweis zu stellen. Die Technik dahinter kannst Du Dir in meinem <a href='https://github.com/PatrickTaddey' target='_blank'>GitHub</a>-Account anschauen."
+        "text": "Ich habe diese Seite persönlich entwickelt, um meine Skills in der Webentwicklung unter Beweis zu stellen. \n
+            Die Technik dahinter kannst Du Dir in meinem <a href='https://github.com/PatrickTaddey' target='_blank'>GitHub</a>-Account anschauen."
     },
     "advertisement": {
-        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "description": "<p>Beruflich bin ich nun seit ca. 8 Jahren als Webentwickler unterwegs und habe mit der Zeit viele Techniken kennengelernt. \n
+            Dabei habe ich Ende der Neuziger angefangen mit HTML, CSS, PHP sowie MySQL einfache Webseiten zu bauen. Inzwischen hat sich der \n
+            Bereich der Webentwicklung entsprechend weiterentwickelt und es stehen eine Vielzahl an bereits fertigen Lösungen zur Verfügung.</p>\n
+            <p>Wichtig dabei ist, selber mit der Zeit zu gehen und über den Tellerrand zu schauen. Durch den Einsatz neuer Tools verkürzt sich \n
+            zum Glück die Zeit für die Releases neuer Projekte. Der produzierte Overhead beim Erlernen neuer Techniken spielt sich dadurch wieder \n
+            schnell ein.</p><p>Ich habe mich inzwischen auf den Bereich der Frontend-Entwicklung spezialisiert, nicht nur weil dieser in den \n
+            letzten Jahren immer mehr an Bedeutung gewonnen hat, sondern weil dieser viel spannender und attraktiver geworden ist. Eine 'Homepage' \n
+            im klassischen Sinne gibt es in der Form nicht mehr. Durch die strikte Trennung von Frontend und Backend müssen die darzustellenden Daten 
+            zunächst von einem Server bezogen und dann entsprechend ausgeben werden. Anfangs habe ich diese Aufgabe durch simple AJAX-Requests in \n
+            jQuery bewältigen können. Wenn das Projekt und auch der Anspruch größer wird, greift man dann doch eher auf ein Framework wie z.B.'Backbone' \n
+            zurück, um das Frontend entsprechend zu strukturieren und nicht meterlange JavaScript-Dateien einbinden zu müssen.</p>",
         "facts": {
             "title": "<i class='fa fa-street-view'></i> Webentwickler",
-            "text": "Webentwickler mit Spezialisierung auf Frontend- & Backend-Entwicklung. Aktuell in der Produktentwicklung und als Ausbilder tätig. Stets an neuen Technolgien, anspruchsvollen Aufgaben und gutem Kaffee interessiert.",
+            "text": "Webentwickler mit Spezialisierung auf Frontend- & Backend-Entwicklung. Aktuell in der Produktentwicklung und als Ausbilder tätig.  \n
+                Stets an neuen Technolgien, anspruchsvollen Aufgaben und gutem Kaffee interessiert.",
             "features": [
-                "9 Jahre Berufserfahrung <span class='label radius'><i class='fa fa-desktop'></i></span>",
+                "8 Jahre Berufserfahrung <span class='label radius'><i class='fa fa-desktop'></i></span>",
                 "IHK-Anwendungsentwickler <span class='label radius'><i class='fa fa-mortar-board'></i></span>",
                 "IHK-Ausbilder <span class='label radius'><i class='fa fa-mortar-board'></i></span>"
             ]
@@ -57,12 +72,12 @@
             },
             {
                 "title" : "Responsive",
-                "text" : "Nach dem Motto Mobile-First! ist eine Website dank Foundation & SASS responsive designt.",
+                "text" : "Nach dem Motto <i>Mobile-First!</i> ist eine Website dank Foundation & SASS entsprechend designt.",
                 "icon" : "fa-mobile"
             },
             {
                 "title" : "Erweiterbar",
-                "text" : "GitHub bietet viele Pakete an, die über Bower & NPM schnell zum Einsatz kommen.",
+                "text" : "GitHub bietet viele Pakete an, die über Bower & NPM schnell & einfach zum Einsatz kommen.",
                 "icon" : "fa-github"
             }
         ]
