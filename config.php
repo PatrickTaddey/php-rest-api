@@ -8,6 +8,7 @@ $config = [
 	"data_files" => [
 		"profile" => "profile.json",
 		"skills" => "skills.json",
+		"domains" => "domains.json",
 	],
 	"mail_config" => [
 		"receiver" => ["mail" => "p.taddey@oldenbuerger.org", "name" => "Patrick Taddey"],

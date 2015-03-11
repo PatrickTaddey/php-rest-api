@@ -1,0 +1,62 @@
+[
+    {
+        "name": "megaphones.de",
+        "description": "Passend für den Bereich IT, z.B. als Domain für einen Onlineshop, der Smartphones verkauft.",
+        "link": "http://www.megaphones.de",
+        "tags": ["IT", "Onlineshops"]      
+    },
+    {
+        "name": "nubsie.de",
+        "description": "Verniedlichende Bezeichnung für Kleinteile - eignet sich also wunderbar für Onlineshops, Blogs, etc.",
+        "link": "http://www.nubsie.de",
+        "tags": ["Blogs", "Onlineshops"]      
+    },
+    {
+        "name": "tubenschleim.de",
+        "description": "Alles aus der Tube: Tubenschleim ist das Produkt für Menschen, die sich gerne ecklige Sachen aufs Brot schmieren.",
+        "link": "http://www.tubenschleim.de",
+        "tags": ["Blogs", "Onlineshops"]      
+    },
+    {
+        "name": "grafikschmied.de",
+        "description" : "Diese Domain eignet sich wunderbar für Agenturen oder einzelne Grafiker, die unabhängig arbeiten wollen.",
+        "link": "http://www.grafikschmied.de",
+        "tags": ["Agenturen", "Blogs"]      
+    },
+    {
+        "name": "seoschmied.de",
+        "description": "Die Top Domain für Agenturen, die sich mit dem Thema Suchmaschinenoptimierung befassen.",
+        "link": "http://www.seoschmied.de",
+        "tags": ["Agenturen", "Blogs"]      
+    },
+    {
+        "name": "shopschmied.de",
+        "description": "Optimal für Agenturen, die Onlineshops <i>schmieden</i> oder Freelancer, die sich alleine behaupten wollen.",
+        "link": "http://www.shopschmied.de",
+        "tags": ["Agenturen", "Blogs", "Onlineshops"]      
+    },
+    {
+        "name": "templateschmied.de",
+        "description": "Sie entwickeln Wordpress- oder Shop-Templates? Hier ist die richtige Domain!", 
+        "link": "http://www.templateschmied.de",
+        "tags": ["Agenturen", "Blogs"]      
+    },
+    {
+        "name": "keingutschein.de",
+        "description": "Top Domain für ein Gutscheinportal das Endkunden bedient, die noch 'kein Gutschein' haben.",
+        "link": "http://www.keingutschein.de",
+        "tags": ["Agenturen", "Blogs", "Gutscheine"]      
+    },
+    {
+        "name": "echtbeschissen.de",
+        "description": "Eine echt beschissene Domain für echt beschissene Projekte oder Blogs, die darüber berichten.",
+        "link": "http://www.echtbeschissen.de",
+        "tags": ["Blogs"]
+    },
+    {
+        "name": "oldenbuerger.org",
+        "description": "Ideale Domain für ein Blog, das über die norddeutsche Stadt Oldenburg und deren Bürger berichtet.",
+        "link": "http://www.oldenbuerger.org",
+        "tags": ["Blogs"]      
+    }
+]

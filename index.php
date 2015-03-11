@@ -68,7 +68,7 @@ $app->post("/contacts", function () use ($app) {
 	$mail->Body = $request_body->message;
 	if (empty($request_body->offer) === false) {
 		$mail->Body .= "\n\n Angebot: " . $request_body->offer;
-		$mail->Subject = "Angebot von " . $request_body->name;
+		$mail->Subject = "Angebot von " . $request_body->name . " zu " . $request_body->domain;
 	}
 
 	if (!$mail->send()) {

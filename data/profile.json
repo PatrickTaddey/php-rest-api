@@ -8,6 +8,10 @@
         "title": "Ich bin der Patrick",
         "text": "Ich habe mich als Webentwickler auf den Bereich der Frontend- & Backend-Entwicklung spezialisiert und möchte auf diesen Seiten kurz mein Profil & Portfolio vorstellen."
     },
+    "domains": {
+        "title": "10 Domains zu verkaufen",
+        "text": "Wer noch Interesse an guten und günstigen Domains hat, findet <a href='#domains'>hier</a> eine Übersicht meiner aktuell zu verkaufenen Domains."
+    },
     "more": {
         "title": "Ich bin auf der Suche",
         "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#contact'>Nachricht</a>. Alternativ kannst Du mich auch auf <a href='https://www.xing.com/profile/Patrick_Taddey' target='_blank'>Xing</a> kontaktieren."
