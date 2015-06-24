@@ -5,23 +5,23 @@
     "zipcode": "26121",
     "city": "Oldenburg",
     "intro": {
-        "title": "Ich bin der Patrick",
+        "title": "Ich bin der Patrick...",
         "text": "Ich habe mich als Webentwickler auf den Bereich der Frontend- & Backend-Entwicklung spezialisiert und möchte auf diesen Seiten kurz mein Profil & Portfolio vorstellen."
+    },
+    "more": {
+        "title": "...und bin auf der Suche",
+        "text": "Aktuell suche ich einen Job als Webentwickler. Wenn Du mehr über mich erfahren willst, besuche mein <a href='#profile'>Profil</a> oder schicke mir eine <a href='#contact'>Nachricht</a> gerne auch auf <a href='https://www.xing.com/profile/Patrick_Taddey' target='_blank'>Xing</a>."
     },
     "domains": {
         "title": "10 Domains zu verkaufen",
         "text": "Wer noch Interesse an guten und günstigen Domains hat, findet <a href='#domains'>hier</a> eine Übersicht meiner aktuell zu verkaufenen Domains."
-    },
-    "more": {
-        "title": "Ich bin auf der Suche",
-        "text": "Aktuell halte ich nach einem neuen Job als Webentwickler Ausschau. Wenn Du mehr über mich erfahren willst, besuche einfach mein <a href='#profile'>Profil</a> oder schicke mir gleich eine <a href='#contact'>Nachricht</a>. Alternativ kannst Du mich auch auf <a href='https://www.xing.com/profile/Patrick_Taddey' target='_blank'>Xing</a> kontaktieren."
     },
     "technology": {
         "title": "Hinter den Kulissen",
         "text": "Ich habe diese Seite persönlich entwickelt, um meine Skills in der Webentwicklung unter Beweis zu stellen. Die Technik dahinter kannst Du Dir in meinem <a href='https://github.com/PatrickTaddey' target='_blank'>GitHub</a>-Account anschauen."
     },
     "advertisement": {
-        "description": "<p>Beruflich bin ich nun seit ca. 8 Jahren als Webentwickler unterwegs und habe mit der Zeit viele Techniken kennengelernt. Dabei habe ich Ende der Neuziger angefangen mit HTML, CSS, PHP sowie MySQL einfache Webseiten zu bauen. Inzwischen hat sich der Bereich der Webentwicklung entsprechend weiterentwickelt und es stehen eine Vielzahl an bereits fertigen Lösungen zur Verfügung.</p><p>Wichtig dabei ist, selber mit der Zeit zu gehen und über den Tellerrand zu schauen. Durch den Einsatz neuer Tools verkürzt sich zum Glück die Zeit für die Releases neuer Projekte. Der produzierte Overhead beim Erlernen neuer Techniken spielt sich dadurch wieder schnell ein.</p><p>Ich habe mich inzwischen auf den Bereich der Frontend-Entwicklung spezialisiert, nicht nur weil dieser in den letzten Jahren immer mehr an Bedeutung gewonnen hat, sondern weil dieser viel spannender und attraktiver geworden ist. Eine 'Homepage' im klassischen Sinne gibt es in der Form nicht mehr. Durch die strikte Trennung von Frontend und Backend müssen die darzustellenden Daten zunächst von einem Server bezogen und dann entsprechend ausgeben werden. Anfangs habe ich diese Aufgabe durch simple AJAX-Requests in jQuery bewältigen können. Wenn das Projekt und auch der Anspruch größer wird, greift man dann doch eher auf ein Framework wie z.B.'Backbone' zurück, um das Frontend entsprechend zu strukturieren und nicht meterlange JavaScript-Dateien einbinden zu müssen.</p>",
+        "description": "<p>Beruflich bin ich nun seit ca. 8 Jahren als Webentwickler unterwegs und habe mit der Zeit viele Techniken kennengelernt. Dabei habe ich Ende der Neuziger angefangen mit HTML, CSS, PHP sowie MySQL einfache Webseiten zu bauen. Heute entwickle ich neben Single Page Applications und Rest-APIs auch Onlineshop-Module. Weiterhin bin ich als Ausbilder für die Ausbildung eines Anwendungsentwicklers verantwortlich.</p><p>Als Backend-Entwickler realisiere ich Lösungen objektorientiert in PHP unter Einsatz von MySQL als Datenbank. Hier setze ich vor allem Frameworks wie CakePHP ein, um z.B. Rest-APIs zu entwickeln. Als ehemaliger Webentwickler der Gambio GmbH verfüge ich außerdem über entsprechende Skills in der Entwicklung bzw. Anpassung von Shopsystemen wie z.B. Gambio oder Shopware.</p><p>In der Frontend-Entwicklung habe ich meinen Fokus darauf gesetzt, responsive Layouts in Frameworks wie z.B. Zurb Foundation umzusetzen. Weiterhin entwickle ich Single Page Applications in JavaScript-Bibliotheken wie z.B. BackboneJS und strukturiere den Code in CoffeeScript und Browserify. Mit Hilfe von Tools wie Grunt und Bower realisiere ich zeitnah und unkompliziert skalierbare Web-Anwendungen.</p>",
         "facts": {
             "title": "<i class='fa fa-street-view'></i> Webentwickler",
             "text": "Webentwickler mit Spezialisierung auf Frontend- & Backend-Entwicklung. Aktuell in der Produktentwicklung und als Ausbilder tätig. Stets an neuen Technolgien, anspruchsvollen Aufgaben und gutem Kaffee interessiert.",
@@ -46,29 +46,63 @@
             "icon" : "fa-github-alt"
         }
     ],
-    "features": {
-        "title": "und ich entwickle Web-Apps",
+    "features": [
+    {
+        "title": "Backend-Entwicklung",
+        "items": [
+            {
+                "title" : "PHP5 & MySQL5",
+                "text" : "Sicherer Umgang in beiden Sprachen.",
+                "icon" : "fa-code"
+            },
+            {
+                "title" : "Onlineshops",
+                "text" : "Modul-Entwicklung in Gambio & Shopware.",
+                "icon" : "fa-shopping-cart"
+            },
+            {
+                "title" : "Frameworks",
+                "text" : "API-Entwicklung in CakePHP & SlimPHP.",
+                "icon" : "fa-wrench"
+            }
+        ]
+    },{
+        "title": "Frontend-Entwicklung",
+        "items": [
+            {
+                "title" : "JavaScript",
+                "text" : "Dank CoffeeScript endlich übersichtlich.",
+                "icon" : "fa-coffee"
+            },
+            {
+                "title" : "CSS3",
+                "text" : "Mit freundlicher Unterstützung von SCSS.",
+                "icon" : "fa-css3"
+            },
+            {
+                "title" : "HTML5",
+                "text" : "Darf in keiner Webseite fehlen ;-)",
+                "icon" : "fa-html5"
+            }
+        ]
+    },{
+        "title": "Web-Apps",
         "items": [
             {
                 "title" : "Benutzerfreundlich",
-                "text" : "Statt nerviger Page-Reloads erwartet man eine schnelle & anspruchsvolle Website.",
+                "text" : "Statt Page-Reloads erwartet man eine schnelle & anspruchsvolle Website.",
                 "icon" : "fa-users"
             },
             {
                 "title" : "Effizient",
-                "text" : "Mit Tools wie z.B. Backbone, Browserify, Grunt, etc. ist eine Web-App schnell entwickelt.",
+                "text" : "Schnell entwickelt dank Tools wie Backbone, Browserify, Grunt, etc.",
                 "icon" : "fa-line-chart"
             },
             {
                 "title" : "Responsive",
-                "text" : "Nach dem Motto <i>Mobile-First!</i> ist eine Website dank Foundation & SASS entsprechend designt.",
+                "text" : "Nach dem Motto <i>Mobile-First!</i> mit Zurb Foundation & SASS designt.",
                 "icon" : "fa-mobile"
-            },
-            {
-                "title" : "Erweiterbar",
-                "text" : "GitHub bietet viele Pakete an, die über Bower & NPM schnell & einfach zum Einsatz kommen.",
-                "icon" : "fa-github"
             }
         ]
-    }
+    }]
 }
